@@ -1,0 +1,47 @@
+.header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.warehouseContainer{
+    border: 2px solid rgb(81, 70, 226);
+    border-radius: 20px;
+    padding: 5%;
+    width: 70%;
+    margin: auto;
+    color: rgb(102, 2, 2);
+}
+.field{
+margin: 2%;
+}
+.editInput{
+    border-radius: 20px;
+    border-color:rgb(81, 70, 226);
+    outline: none;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.editInput:focus{
+    box-shadow: 5px 5px 5px 5px rgb(81, 70, 226);
+}
+button{
+    border-radius: 20px;
+    border-color: rgb(81, 70, 226);
+    outline: none;
+    color: rgb(102, 2, 2);
+    margin-left: 45%;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+    
+}
+button:active{
+    box-shadow: 5px 5px 5px 5px rgb(81, 70, 226);
+}
+p{
+    margin-left: 1%;
+    margin-right: 1%;
+}
